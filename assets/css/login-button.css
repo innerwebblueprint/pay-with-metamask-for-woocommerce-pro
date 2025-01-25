@@ -1,0 +1,138 @@
+#cpmwp_metamask_login span.cpmpw_metamask_logo img{
+    width: 20px;
+    display: inline;
+    height: 20px;
+
+    vertical-align: middle; 
+   
+    margin-right: 3px;
+    position: relative;
+}
+#loginform #cpmwp_metamask_login span.cpmpw_metamask_logo {
+   
+        display: flex;
+        align-items: center;
+   
+}
+
+
+.checkout.woocommerce-checkout span.cpmwp_add_user_auth_msg,.woocommerce-form.woocommerce-form-register.register span.cpmwp_add_user_auth_msg,
+#registerform span.cpmwp_add_user_auth_msg,.woocommerce-form.woocommerce-form-login.login span.cpmwp_add_user_auth_msg,
+#loginform span.cpmwp_add_user_auth_msg,
+.checkout.woocommerce-checkout span.cpmwp_add_user_auth_msg,.cpmwp_metamask_wraper span.cpmwp_add_user_auth_msg{           
+            padding: 4px 8px 8px 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            max-width: 800px;
+            margin-right: auto;
+            margin-left: auto
+}
+
+#loginform #cpmwp_metamask_login,#registerform #cpmwp_metamask_login{
+    width: 100%;
+     padding: 5px ;
+}
+#cpmwp_metamask_login{
+  
+            margin-top: 10px;
+            cursor: pointer;
+            text-align: center;
+           /* width: 100%;*/
+              width: max-content;
+    max-width: 100%;
+    padding: 10px ;
+
+        display: flex;
+    align-items: center;
+    justify-content: center;
+           
+}
+#cpmwp_metamask_login span.cpmpw_metamask_logo {
+  display: flex;
+  align-items: center;
+}
+
+.cpmwp_metamask_wraper.small #cpmwp_metamask_login{
+    width: 50%;
+    padding: 5px;
+    border-width: 1px;
+    border-radius: 3px;
+}
+.cpmwp_metamask_wraper.medium #cpmwp_metamask_login {
+    width: 70%;
+    padding: 8px;
+    border-width: 1px;
+    border-radius: 3px;
+}
+.cpmwp_metamask_wraper.large #cpmwp_metamask_login {
+    width: 100%;
+    padding: 12px;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+
+@media screen and (max-width:768px){
+    #cpmwp_metamask_login {
+        width: 100%;
+        padding: 5px ;
+      
+    }
+}
+
+
+
+
+#cpmwp_metamask_login .ConnectWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    padding-top: 32px;
+}
+#cpmwp_metamask_login .ConnectWrap .cpmwp_disconnect { 
+  padding: 5px 7px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  max-height: 30px;
+  position: absolute;
+  top: 0px;
+  display: none;
+  animation: slideUp 0.4s ease-in;
+
+}
+@keyframes slideUp {
+  0%{
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  
+  }
+}
+
+#cpmwp_metamask_login .ConnectWrap:hover .cpmwp_disconnect {
+  display: block;
+}
+
+.swal2-icon, .swal2-image {
+  margin: auto;
+}
+.swal2-popup {
+  padding: 1.25em !important;
+}
+.swal2-success-circular-line-left, .swal2-success-circular-line-right, .swal2-success-fix{
+  background-color: transparent !important;    
+  }
+
+.cpmwp_popup button.swal2-confirm,.cpmwp_popup button.swal2-deny,.cpmwp_popup button.swal2-cancel {
+  padding: .625em 1.1em;
+  margin: .3125em;
+}
+.swal2-title {
+  padding: .8em 1em 0;
+}

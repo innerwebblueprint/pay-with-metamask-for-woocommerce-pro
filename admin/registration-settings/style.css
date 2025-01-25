@@ -1,0 +1,177 @@
+.cpmwp-license-container {
+    margin-top: 20px;
+    padding: 0;
+    display: inline-block;
+    margin: 15px auto;
+    box-sizing: border-box;
+    width: calc(100% - 20px);
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px -5px #afafaf;
+    overflow: hidden;
+    position: relative;
+}
+
+.cpmwp-license-container * {
+    box-sizing: border-box;
+}
+
+.cpmwp-license-container h3.cpmwp-license-title {
+    background-color: #db8119;
+    background: linear-gradient(to right, #e2980d, #ccbd95);
+    padding: 20px 10px;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.cpmwp-license-container .cpmwp-license-content {
+    padding: 25px;
+    width: 100%;
+    display: inline-block;
+}
+
+.cpmwp-license-form,
+.cpmwp-license-textbox {
+    display: inline-block;
+    width: calc(50% - 5px);
+    vertical-align: top;
+}
+
+.cpmwp-license-form {
+    padding-right: 40px;
+}
+
+.cpmwp-license-textbox ol {
+    border: 3px solid #efaf50;
+    padding: 5px 20px;
+    margin-left: 0;
+}
+
+.cpmwp-license-container .cpmwp-license-field {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.cpmwp-license-container .cpmwp-license-field input {
+    font-size: 150%;
+    padding: 8px 10px 10px;
+    width: 100%;
+}
+
+.cpmwp-license-container .cpmwp-license-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cpmwp-license-container .cpmwp-license-active-btn {
+    margin-top: 25px;
+}
+
+.cpmwp-license-container .notice-error,
+.cpmwp-license-container div.error {
+    background: rgba(220, 50, 50, 0.11);
+    margin: 0;
+}
+
+.cpmwp-license-container .cpmwp-license-title {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.cpmwp-license-info li {
+    list-style: none;
+    padding: 0;
+}
+
+.cpmwp-license-info-title {
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    padding-right: 5px;
+}
+
+.cpmwp-license-info-title:after {
+    content: ':';
+    position: absolute;
+    right: 2px;
+}
+
+.cpmwp-license-valid,
+.cpmwp-license-invalid {
+    padding: 0px 5px 2px;
+    color: #fff;
+    background-color: #8fcc77;
+    border-radius: 3px;
+}
+
+.cpmwp-license-invalid {
+    background-color: #f44336;
+}
+
+.cpmwp-license-key {
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+div#activating-loco-pro-response {
+    position: fixed;
+    margin: 0 auto;
+    display: block;
+    top: 50%;
+    left: 40%;
+    color: black;
+    font-size: 21px;
+    background: #f5f5f5;
+    padding: 45px;
+}
+
+table.loco-addon-license {
+    width: 100%;
+    table-layout: fixed !IMPORTANT;
+}
+
+table.loco-addon-license tr th,
+table.loco-addon-license tr td {
+    border: 1px solid #bbb;
+    padding: 12px;
+    text-align: center;
+    width: 33%;
+}
+
+table.loco-addon-license img {
+    max-width: 100%;
+}
+
+table.loco-addon-license tr td strong img {
+    height: 28px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.el-pluginby {
+    width: 100%;
+    display: block;
+    text-align: right;
+    font-style: italic;
+}
+
+.el-pluginby img {
+    max-width: 100px;
+}
+
+@media only screen and (max-width: 940px) {
+
+    .cpmwp-license-form,
+    .cpmwp-license-textbox {
+        width: 100%;
+    }
+
+    .cpmwp-license-form {
+        padding-right: 0;
+    }
+}

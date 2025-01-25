@@ -1,0 +1,1 @@
+(globalThis.webpackChunkpay_with_metamask=globalThis.webpackChunkpay_with_metamask||[]).push([[875,147],{4353:()=>{},5340:()=>{},9838:()=>{}}]);
